@@ -1,0 +1,14 @@
+local PlaceId = game.PlaceId
+
+if PlaceId == 855499080 then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/SkywarsGUI/main/Skywars%20Script"))()
+elseif PlaceId == 4104106043 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Nadir3709/main/Script%20Insane%20Elevator%20Gui"))()
+elseif PlaceId == 2788229376 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Da-Hood-Auto-Farm/main/Da%20Hood"))()
+elseif PlaceId == 3623096087 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Muscle-Legends/main/Muscle%20Legends%20Script"))()
+else
+    game.Players.LocalPlayer:kick("Game Not Support!")
+    wait(1)
+end
