@@ -12,6 +12,8 @@ elseif PlaceId == 7993293100 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Tsunami-Game/main/Tsunami%20Game%20Script"))()
 elseif PlaceId == 2248408710 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Destruction-Simulator/main/Destruction%20Simulator"))()
+elseif PlaceId == 4246487209 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Boss-Fighting-Simulator/main/Boss%20Fighting%20Simulator%20Script"))()
 else
     game.Players.LocalPlayer:kick("Game Not Support!")
     wait(1)
