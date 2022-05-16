@@ -10,7 +10,8 @@ elseif PlaceId == 3623096087 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Muscle-Legends/main/Muscle%20Legends%20Script"))()
 elseif PlaceId == 7993293100 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Tsunami-Game/main/Tsunami%20Game%20Script"))()
-else
+elseif PlaceId == 2248408710 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Destruction-Simulator/main/Destruction%20Simulator"))()
     game.Players.LocalPlayer:kick("Game Not Support!")
     wait(1)
 end
