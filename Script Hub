@@ -12,6 +12,8 @@ elseif PlaceId == 855499080  then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/SkywarsGUI/main/Skywars%20Script"))()
 elseif PlaceId == 2248408710 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Destruction-Simulator/main/Destruction%20Simulator"))()
+elseif PlaceId == 537413528 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Build-A-Boat/main/For%20Treasure"))()
 else
     game.Players.LocalPlayer:kick("Game Not Support!")
     wait(1)
