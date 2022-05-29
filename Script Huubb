@@ -1,0 +1,22 @@
+local PlaceId = game.PlaceId
+
+    if PlaceId == 4246487209 or PlaceId == 4246487209 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Boss-Fighting-Simulator-Script/main/-"))()
+elseif PlaceId == 4104106043 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Nadir3709/main/Script%20Insane%20Elevator%20Gui"))()
+elseif PlaceId == 3623096087 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Muscle-Legends/main/Muscle%20Legends%20Script"))()
+elseif PlaceId == 7993293100 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Tsunami-Game/main/Tsunami%20Game%20Script"))()
+elseif PlaceId == 855499080  then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/SkywarsGUI/main/Skywars%20Script"))()
+elseif PlaceId == 2248408710 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Destruction-Simulator/main/Destruction%20Simulator"))()
+elseif PlaceId == 537413528 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Build-A-Boat/main/For%20Treasure"))()
+elseif PlaceId == 8750997647 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Tapping-Legends-X/main/Tap"))()
+else
+    game.Players.LocalPlayer:kick("Game Not Support!")
+    wait(1)
+end
