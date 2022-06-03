@@ -16,7 +16,7 @@ elseif PlaceId == 537413528 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Build-A-Boat/main/For%20Treasure"))()
 elseif PlaceId == 8750997647 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Tapping-Legends-X/main/Tap"))()
-elseif PlaceId == 1962086868 then
+elseif PlaceId == 1962086868 then or PlaceId == 3582763398 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Tower-Of-Hell/main/Tower%20Of%20Hell%20Script"))()
 else
     game.Players.LocalPlayer:kick("Game Not Support!")
