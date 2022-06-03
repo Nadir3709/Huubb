@@ -20,6 +20,8 @@ elseif PlaceId == 1962086868 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Tower-Of-Hell/main/Tower%20Of%20Hell%20Script"))()
 elseif PlaceId == 3582763398 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Tower-Of-Hell/main/Tower%20Of%20Hell%20Script"))()
+elseif PlaceId == 4954752502 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Tower-Of-Misery/main/Script"))()
 else
     game.Players.LocalPlayer:kick("Game Not Support!")
     wait(1)
