@@ -24,6 +24,8 @@ elseif PlaceId == 4954752502 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Tower-Of-Misery/main/Script"))()
 elseif PlaceId == 7211666966 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Tower-Of-Jump/main/Script"))()
+elseif PlaceId == 1224212277 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Mad-City/main/Script"))()
 else
     game.Players.LocalPlayer:kick("Game Not Support!")
     wait(1)
