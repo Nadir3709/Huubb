@@ -30,6 +30,8 @@ elseif PlaceId == 2788229376 then
     game.Players.LocalPlayer:kick("Sorry DaHood Script Its Patched")
 elseif PlaceId == 6953291455 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Eating-Simulator/main/Script"))()
+elseif PlaceId == 621129760 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Knife-Ability-Test/main/Scriptt"))()
 else
     game.Players.LocalPlayer:kick("Game Not Support!")
     wait(1)
