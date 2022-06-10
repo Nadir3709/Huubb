@@ -38,3 +38,11 @@ else
     game.Players.LocalPlayer:kick("Game Not Support!")
     wait(1)
 end
+
+local CoreGui = game:GetService("StarterGui")
+
+CoreGui:SetCore("SendNotification", {
+	Title = "Nadir Hub";
+	Text = "Thank You For Using Nadir Hub,             I Hope You Like My Script, Enjoy!                            :)";
+	Duration = 10;
+})
