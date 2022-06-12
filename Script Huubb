@@ -34,6 +34,8 @@ elseif PlaceId == 621129760 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Knife-Ability-Test/main/Scriptt"))()
 elseif PlaceId == 5256165620 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Blast-Off-Simulator/main/Scriptt"))()
+elseif PlaceId == 8015075184 then
+    game.Players.LocalPlayer:kick("Dimension 2 - The Zenith Script Its Coming Soon")
 else
     game.Players.LocalPlayer:kick("Game Not Support!")
     wait(1)
