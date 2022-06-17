@@ -2,6 +2,8 @@ local PlaceId = game.PlaceId
 
     if PlaceId == 13822889 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Lumber-Tycoon-2/main/Script%20Mobile"))()
+elseif PlaceId == 1224212277 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Mad-City/main/Script"))()
 else
     game.Players.LocalPlayer:kick("Game Not Support!")
     wait(1)
