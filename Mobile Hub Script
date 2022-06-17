@@ -1,0 +1,16 @@
+local PlaceId = game.PlaceId
+
+    if PlaceId == 13822889 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Lumber-Tycoon-2/main/Script%20Mobile"))()
+else
+    game.Players.LocalPlayer:kick("Game Not Support!")
+    wait(1)
+end
+
+local CoreGui = game:GetService("StarterGui")
+
+CoreGui:SetCore("SendNotification", {
+	Title = "Nadir Hub";
+	Text = "Thank You For Using Nadir Hub,             I Hope You Like My Script, Enjoy!                            :)";
+	Duration = 10;
+})
