@@ -45,7 +45,7 @@ local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
 	Title = "Nadir Hub";
-	Text = "Thank You For Using Nadir Hub, I Hope You Like My Script, Enjoy!   :)";
-    Icon = "http://www.roblox.com/asset/?id=37676720";
-    Duration = 15;
+	Text = "Welcome To Nadir Hub "..game.Players.LocalPlayer.Name;
+	Icon = "http://www.roblox.com/asset/?id=37676720";
+	Duration = 15;
 })
