@@ -7,8 +7,7 @@ elseif PlaceId == 1224212277 then
 elseif PlaceId == 3623096087 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Muscle-Legends/main/Muscle%20Legends%20Mobile"))()
 else
-    game.Players.LocalPlayer:kick("Game Not Support!")
-    wait(1)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Anti-Afk/main/Anti%20Afk%20Mobile"))()
 end
 
 local CoreGui = game:GetService("StarterGui")
