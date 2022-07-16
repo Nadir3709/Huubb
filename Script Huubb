@@ -40,7 +40,6 @@ elseif PlaceId == 9498006165 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Tapping-Sim/main/Scripting"))()
 else
     game.Players.LocalPlayer:kick("Game Not Support!")
-    wait(1)
 end
 
 local CoreGui = game:GetService("StarterGui")
